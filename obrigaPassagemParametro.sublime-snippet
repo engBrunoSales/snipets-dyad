@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+obrigaPassagemDeParametroParaFuncao( ${1:nomeFuncao}, [ "${2:nomeParametro}" ], [ $2 ], ${3:mensagem}, ${4:tipoDoParametro} )
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>obrigaPassagem</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Obriga passagem de parâmetro.</description>
+</snippet>
