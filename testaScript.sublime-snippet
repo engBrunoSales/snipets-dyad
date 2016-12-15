@@ -1,0 +1,132 @@
+<snippet>
+	<content><![CDATA[
+includeOnce -1892821478 /* /products/DYADinfrastructure/library/includes/Funcoes Auxiliares/Funcoes Auxiliares de Testes Automaticos.ijs */
+/*
+   Metodos de teste:
+      check( condition, msg)
+      checkEquals( expected, actual, msg)
+      checkNotEquals( expected, actual, msg)
+      checkEqualNumbers( expected, actual, delta, msg)
+      checkNotEqualNumbers( expected, actual, delta, msg)
+      checkEqualDates( expected, actual, msg)
+      checkNotEqualDates( expected, actual, msg)
+      checkEqualDateTimes( expected, actual, msg)
+      checkNotEqualDateTimes( expected, actual, msg)
+      checkEqualArrays( expected, actual, msg)
+      checkNotEqualArrays( expected, actual, msg)
+      assert()
+      assertTrue()
+      assertFalse()
+      assertEquals()
+      assertNotEquals()
+      assertNull()
+      assertNotNull()
+      assertUndefined()
+      assertNotUndefined()
+      assertNan()
+      assertNotNan()
+
+   Verifique a descricão desses métodos no script:
+   -1898146070 /products/INTEQengine/library/unitTest/jsUnit.ijs
+*/
+
+/*
+ * Executado antes de rodar os testes.
+ * Deve ser utilizado para preparar o ambiente: criar objetos, configurar variaveis globais etc.
+ */
+this.setUp = function setUp(){
+    session.executeStartupScripts()
+    this.dsParametros = connection.cloneLocalCacheByClass( -1892821488 /* Parâmetros de Testes Unitários */ )
+}
+
+/*
+ * Executado ao final dos testes.
+ * Deve ser utilizado para: desfazer qualquer alteracão permanente que tenha sido realizada durante a
+ * execucão dos testes.
+ */
+this.tearDown = function tearDown(){
+
+}
+
+/**
+ * Método ou Função: SubstituirPeloNomeDaFuncao
+ * Descrição:
+ * Criador:
+ * Data Criação:
+ **/
+this.testa_SubstituirPeloNomeDaFuncao = function testa_SubstituirPeloNomeDaFuncao(){
+    var functionName = "testa_SubstituirPeloNomeDaFuncao()"
+    profiler.startOperation( functionName )
+    try {
+        //-- Executando os testes
+        var parametros = posicionaParametrosParaTestesUnitarios( functionName, this.dsParametros )
+        for ( parametros.first(); ! parametros.eof; parametros.next() ){
+            //-- Explicar situação do teste.
+            this.checkEquals( true, SubstituirPeloNomeDaFuncao( parametros.exemploDeParametro1 ) )
+            //-- Explicar situação do teste.
+            this.checkEquals( true, SubstituirPeloNomeDaFuncao( parametros.exemploDeParametro1 ) )
+        }
+    } finally {
+        profiler.endOperation()
+    }
+}
+this.testa_SubstituirPeloNomeDaFuncao.defineFields = function testa_SubstituirPeloNomeDaFuncao_defineFields( sender ){
+    with ( sender.field("campo1") ){
+        order   = 10
+        visible = true
+    }
+    with ( sender.field("campo2") ){
+        order   = 20
+        visible = true
+    }
+    with ( sender.field("campo3") ){
+        order   = 30
+        visible = true
+    }
+}
+
+
+/**
+ * Método ou Função: SubstituirPeloNomeDaFuncao
+ * Descrição:
+ * Criador:
+ * Data Criação:
+ **/
+this.testa_SubstituirPeloNomeDaFuncao = function testa_SubstituirPeloNomeDaFuncao(){
+    var functionName = "testa_SubstituirPeloNomeDaFuncao()"
+    profiler.startOperation( functionName )
+    try {
+        //-- Executando os testes
+        var parametros = posicionaParametrosParaTestesUnitarios( functionName, this.dsParametros )
+        for ( parametros.first(); ! parametros.eof; parametros.next() ){
+            //-- Explicar situação do teste.
+            this.checkEquals( true, SubstituirPeloNomeDaFuncao( parametros.exemploDeParametro1 ) )
+            //-- Explicar situação do teste.
+            this.checkEquals( true, SubstituirPeloNomeDaFuncao( parametros.exemploDeParametro1 ) )
+        }
+    } finally {
+        profiler.endOperation()
+    }
+}
+this.testa_SubstituirPeloNomeDaFuncao.defineFields = function testa_SubstituirPeloNomeDaFuncao_defineFields( sender ){
+    with ( sender.field("campo1") ){
+        order   = 10
+        visible = true
+    }
+    with ( sender.field("campo2") ){
+        order   = 20
+        visible = true
+    }
+    with ( sender.field("campo3") ){
+        order   = 30
+        visible = true
+    }
+}
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>testaScript</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
