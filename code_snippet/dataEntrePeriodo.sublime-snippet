@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+dataEstaEntrePeriodo( ${1:data}, ${2:inicio}, ${3:fim} )
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dataPeriodo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Função: dataEstaEntrePeriodo</description>
+</snippet>
