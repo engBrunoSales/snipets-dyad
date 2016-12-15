@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+-1895919972 /* TISS Guia Resumo Internação */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cls_tissGuiaResumoInternacao</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Classe: TISS Guia Resumo Internação</description>
+</snippet>
