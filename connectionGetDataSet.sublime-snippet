@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-connection.getDataSet("")
+connection.getDataSet("${1:sql}")
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>connection</tabTrigger>
