@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+includeOnce -1895935588 /* DYADhrp: /products/DYADhrp/library/includes/Funcoes Auxiliares do DYADhrp/Funcoes de Uso Geral.ijs */
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>includeFuncoesGerais</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Include funções em gerais.</description>
+</snippet>
