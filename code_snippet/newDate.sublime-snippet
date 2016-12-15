@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+new Date( ${1:ano}, ${2:mes(0..11)}, ${3:dia} )
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newDate</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Nova data no sistema.</description>
+</snippet>
