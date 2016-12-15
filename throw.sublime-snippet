@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+throw new DetailedError(
+						'${1:mensagemErro}',
+                        'Entre em contato com o administrador do sistema.', 
+                        '${2:mensagem}',
+                        'Método/Função: ' + ${3:nomeFuncao} )
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>throwDyad</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Lançando um throw.</description>
+</snippet>
