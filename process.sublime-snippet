@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+
+var grdTeste = this.grid( "grdTeste" )
+
+var fld = grdTeste.field("inicio", "date" )
+fld = grdTeste.field("nome", "string", 10 )
+fld.help = "Campo 'nome' criado especificamente para exemplificar as propriedades dinamicas de um process"
+
+fld = grdTeste.field("texto", "string", 50 )
+fld.help = "Campo 'texto' criado especificamente para exemplificar as propriedades dinamicas de um process"
+
+
+this.interaction("exibirFiltros", function interaction_exibirFiltros(){
+
+	this.grdTeste.write();
+	
+})
+
+
+this.action( "Teste", function action_Teste( act ){
+    var process = act.process
+
+    //validaParametros()
+    //executaOutrasValidacoes()
+    
+    process.setNextInteraction( "exibirResultadoTeste" );
+} )
+
+this.interaction("exibirResultadoTeste", function interaction_exibirResultadoTeste(){
+	
+})
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>process</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+
+this.getDs${1:objeto} = function getDs${2:objeto}(){
+	if( this._ds${3:objeto} ){
+		return this._ds${4:objeto}
+	} else {
+		this._ds${5:objeto} = connection.getDataSet( "" );
+		return this._ds${6:objeto};
+	}
+}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dataSet</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

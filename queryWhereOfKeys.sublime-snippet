@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+queryUtilities.clauseWhereOfKeys(${1:prefixWhereAndOr}, ${2:fieldName}, ${3:keys}, ${4:negation}, ${5:split}, ${6:operatorConcat}, ${7:countKeysForSplit}, ${8:dbType})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>queryWhereOfKeys</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

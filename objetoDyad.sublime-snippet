@@ -1,0 +1,49 @@
+<snippet>
+	<content><![CDATA[
+__includeOnce( -1892821528 /* DYADinfrastructure: /products/DYADinfrastructure/library/objects/ObjetoModelo.ijs */ );
+__includeOnce( -1895935588 /* DYADhrp: /products/DYADhrp/library/includes/Funcoes Auxiliares do DYADhrp/Funcoes de Uso Geral.ijs */ );
+
+
+function ${1:objeto}(){
+	ObjetoModelo.call( this );	
+}
+
+${2:objeto}.inherit = ObjetoModelo.inherit
+${3:objeto}.inherit( ObjetoModelo );
+
+/*
+ * Propriedades da Classe
+ */
+${4:objeto}.prototype._teste = null;
+
+
+/*
+ * Funções Get e Set
+ */
+${5:objeto}.prototype.getTeste = function getTeste(){
+	if(!this._teste){
+		this._teste = true; 
+	}
+	return this._teste;
+}
+
+${6:objeto}.prototype.setTeste = function setTeste(param){
+	this._teste = param;
+}
+
+
+/*
+ * Funções da classe
+ */
+
+${7:objeto}.prototype.nameFunction = function nameFunction(params){
+	
+}
+
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>objd</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

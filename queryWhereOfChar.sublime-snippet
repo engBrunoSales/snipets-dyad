@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+queryUtilities.clauseWhereOfChar(${1:prefixWhereAndOr}, ${2:fieldName}, ${3:value}, ${4:negation})
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>queryWhereOfChar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
