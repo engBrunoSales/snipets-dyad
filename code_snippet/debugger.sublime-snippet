@@ -1,10 +1,11 @@
 <snippet>
 	<content><![CDATA[
--1895919969 /* TISS Guia de Consulta */
+if( session.userKey == $1 ){debugger}
+
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cls_guiaConsulta</tabTrigger>
+	<tabTrigger>debugger</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
-	<description>Classe: TISS Guia de Consulta</description>
+	<description>Debugger no sistema DYAD hrp.</description>
 </snippet>

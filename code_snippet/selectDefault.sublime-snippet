@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+----------------------------------------------------------------- 
+-- Processo: ${1:nomeProcesso}
+${2:-- Descrição: ${3:description}} 
+-----------------------------------------------------------------
+Select ${4:*} From ${5:Tabela} Where ${6:queryUtilities}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>select</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

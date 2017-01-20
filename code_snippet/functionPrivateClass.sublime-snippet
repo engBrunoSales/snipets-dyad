@@ -7,8 +7,8 @@ ${1:Object}.prototype._${2:nameFunction} = function $1__$2( ${3:parametros} ){
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>functionPrivateClass</tabTrigger>
+	<tabTrigger>funcprvt</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
-	<description>Function private class</description>
+	<description>Função private de classe.</description>
 </snippet>

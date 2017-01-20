@@ -3,7 +3,7 @@
 -1895919974 /* Guias do Padrão TISS */
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cls_guiasPadraTiss</tabTrigger>
+	<tabTrigger>cls_guiaPadrao</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 	<description>Classe: Guias do Padrão TISS</description>

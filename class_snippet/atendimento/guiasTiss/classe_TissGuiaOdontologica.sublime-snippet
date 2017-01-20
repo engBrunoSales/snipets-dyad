@@ -3,7 +3,7 @@
 -1895919971 /* TISS Guia Odontologica */
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>cls_tissGuiaOdontologica</tabTrigger>
+	<tabTrigger>cls_guiaOdontologica</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 	<description>Classe: TISS Guia Odontologica</description>

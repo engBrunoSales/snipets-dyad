@@ -7,8 +7,8 @@ this.${1:nameFunction} = function $1( ${2:params} ){
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>functionGlobal</tabTrigger>
+	<tabTrigger>funcg</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
-	<description>Function global</description>
+	<description>Função global</description>
 </snippet>

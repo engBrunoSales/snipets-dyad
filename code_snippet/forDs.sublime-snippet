@@ -5,7 +5,7 @@ for(${1:dataSet}.first(); !$1.eof; $1.next()){
 }
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>forDs</tabTrigger>
+	<tabTrigger>fords</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>source.js</scope>
 	<description>Loop for DataSet.</description>

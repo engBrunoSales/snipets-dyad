@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+----------------------------------------------------------------- 
+-- Processo: ${1:nomeProcesso}
+${2:-- Descrição: ${3:description}} 
+-----------------------------------------------------------------
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>selectComent</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

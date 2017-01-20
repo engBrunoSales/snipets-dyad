@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+__includeOnce(-1892815083) /* DYADhrp: /products/DYADinfraestructure/library/objects/JSON - DYAD.ijs */
+
+
+var json = '{
+	"campo" : "valor"
+}';
+
+var objJsonDYAD = new JsOnDyad();
+var objSerialize = objJsonDYAD.parse(json);
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>jsonDyad</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+	<description>Objeto JsonDyad</description>
+</snippet>
